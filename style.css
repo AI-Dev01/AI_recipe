@@ -1,0 +1,99 @@
+/* universal CSS styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* body styles*/
+
+body {
+    margin: 15% auto;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+/* image styles*/
+
+.image {
+    width: 100%;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+/* text/paragraph styles*/
+
+.front-end-project,
+p#scan,
+.attribution {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.front-end-project {
+    font-family: serif;
+    font-weight: 700;
+    font-size: 22px;
+    word-spacing: 2px;
+}
+
+p#scan {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: .7;
+}
+
+.attribution {
+    margin: 40px auto 0;
+    font-weight: 200;
+    font-size: 11px;
+}
+
+
+/* links styles*/
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: rgba(118, 118, 252, .7);
+}
+
+a:hover {
+    color: sienna;
+    transition: ease-in;
+    cursor: pointer;
+    -webkit-transition: ease-in;
+    -moz-transition: ease-in;
+    -ms-transition: ease-in;
+    -o-transition: ease-in;
+    transition-duration: .4s;
+}
